@@ -10,5 +10,5 @@ PowerOn "Managing Network" Lab then prepare then check then less NG_cmd.log
 <pre> export gamen=`tty`; curl -s  https://raw.githubusercontent.com/dummyotsuka/101setup/master/101prepare_CompTIA.sh   | sh ;  </pre>
 
 ##### check
-<pre> export gamen=`tty`; curl -s    https://raw.githubusercontent.com/dummyotsuka/101setup/master/101_otsukaCI_CompTIA.sh   | sh </pre>
+<pre> export gamen=`tty`; curl -s    https://raw.githubusercontent.com/dummyotsuka/ZeroLinuxSetup/master/zero_otsukaCI.sh   | sh </pre>
 
