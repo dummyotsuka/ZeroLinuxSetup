@@ -1,9 +1,5 @@
 #!/bin/sh
 
-
-gamen=`tty`
-echo $gamen
-
 rm -rf OK_cmd.log
 rm -rf NG_cmd.log
 
