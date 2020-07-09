@@ -1,3 +1,5 @@
+#CentOS7.2
+
 kill `cat /var/run/yum.pid`
 wait 5
 
@@ -30,6 +32,9 @@ rm -f /etc/systemd/system/default.target
 ln -s /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
 yum -y install gdisk
 yum -y install mkisofs
+
+systemctl start xrdp
+systemctl enable xrdp
 
 #vda3を作る
 gdisk /dev/vda << E
