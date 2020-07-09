@@ -228,13 +228,13 @@ echo  LAB12_start
 echo  LAB12_start 1>&2
 
 mount
-touch /home/lpic/testfile1
-ls /home/lpic/
-umount /home
-ls /home/lpic/
+touch /lab11/testfile1
+ls /lab11
+umount /lab11
+ls /lab11
 mount
-mount /dev/sda5 /home
-ls /home/lpic
+mount /dev/vda3 /lab11
+ls /lab11
 mount
 
 
