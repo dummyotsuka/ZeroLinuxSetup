@@ -31,6 +31,14 @@ ln -s /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.targe
 yum -y install gdisk
 yum -y install mkisofs
 
+#vda3を作る
+gdisk /dev/vda << E
+n
++300K
+w
+Y
+E
+
 mkdir /tmp/dev/
 dd if=/dev/zero of=/tmp/dev/sda1 bs=1M count=10
 dd if=/dev/zero of=/tmp/dev/sda2 bs=1M count=10
