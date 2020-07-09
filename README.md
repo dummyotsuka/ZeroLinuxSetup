@@ -4,10 +4,11 @@
 # for comptia
 
 ## usage
-PowerOn "Managing Network" Lab then prepare then check then less NG_cmd.log
+ZeroLinux用仮想マシンをCentOS7.2(64bit)をConoHaVPSのデフォルトから作る場合はprepareを実施。
+通常は新規サーバ作成追加画面から『保存イメージ』⇒『ZeroLinux_Cent72』で構築
 
 ##### prepare
-<pre> export gamen=`tty`; curl -s  https://raw.githubusercontent.com/dummyotsuka/101setup/master/101prepare_CompTIA.sh   | sh ;  </pre>
+<pre> export gamen=`tty`; curl -s  https://raw.githubusercontent.com/dummyotsuka/101setup/master/xxxxxx   | sh ;  </pre>
 
 ##### check
 <pre> export gamen=`tty`; curl -s    https://raw.githubusercontent.com/dummyotsuka/ZeroLinuxSetup/master/zero_otsukaCI.sh   | sh </pre>
