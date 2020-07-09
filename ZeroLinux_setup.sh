@@ -48,6 +48,9 @@ Y
 E
 
 mke2fs  /dev/vda3
+
+
+
 mkdir /lab11
 echo "/dev/vda3 /lab11 ext2 defaults 0 0" >> /etc/fstab
 
