@@ -49,12 +49,12 @@ E
 
 
 
-mke2fs  /dev/vda3
+mkfs -t ext4 /dev/vda3
 
 
 
 mkdir /lab11
-echo "/dev/vda3 /lab11 ext2 defaults 0 0" >> /etc/fstab
+echo "/dev/vda3 /lab11 ext4 defaults 0 0" >> /etc/fstab
 
 mkdir /tmp/dev/
 dd if=/dev/zero of=/tmp/dev/sda1 bs=1M count=10
