@@ -39,7 +39,10 @@ systemctl enable xrdp
 #vda3を作る
 gdisk /dev/vda << E
 n
+
+
 +300K
+
 w
 Y
 E
